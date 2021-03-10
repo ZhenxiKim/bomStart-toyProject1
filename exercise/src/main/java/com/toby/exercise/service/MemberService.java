@@ -2,10 +2,13 @@ package com.toby.exercise.service;
 
 import com.toby.exercise.domain.Member;
 import com.toby.exercise.repository.MemberRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Optional;
+
 
 public class MemberService {
 
