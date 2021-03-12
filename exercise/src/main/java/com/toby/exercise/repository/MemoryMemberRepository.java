@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
-
+/*
 public class MemoryMemberRepository implements MemberRepository {
 
     private static Map<Long, Member> store = new HashMap<>();
@@ -38,7 +38,6 @@ public class MemoryMemberRepository implements MemberRepository {
     public void clearStore(){
         store.clear();
     }
-
-
-
 }
+*/
+

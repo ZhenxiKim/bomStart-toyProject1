@@ -2,7 +2,7 @@ package com.toby.exercise;
 
 import com.toby.exercise.repository.JdbcTemplateMemberRepository;
 import com.toby.exercise.repository.MemberRepository;
-import com.toby.exercise.repository.MemoryMemberRepository;
+
 import com.toby.exercise.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

@@ -52,6 +52,17 @@ public class JdbcTemplateMemberRepository implements MemberRepository {
         return jdbcTemplate.query("select * from member",memberRowMapper());
     }
 
+    @Override
+    public void deleteMember(String memberId) throws SQLException{
+        int result= jdbcTemplate.update("delete from member where id = ?", memberId);
+        System.out.println(result+"개 삭제 성공");
+    }
+
+    @Override
+    public void updateMember(Member member) throws SQLException {
+        int result = jdbcTemplate.update("update member set name=? where id= ?",member.getName(),member.getId());
+    }
+
     private RowMapper<Member> memberRowMapper(){
         return new RowMapper<Member>(){
           @Override
