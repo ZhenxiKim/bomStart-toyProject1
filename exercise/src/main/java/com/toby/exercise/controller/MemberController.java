@@ -51,7 +51,7 @@ public class MemberController {
 
     @GetMapping ("/members/update")
     public String update(@RequestParam("id") String id, Model model) throws SQLException{
-
+        //hihi
         model.addAttribute("id",id);
         return "members/updateMemberForm";
     }
