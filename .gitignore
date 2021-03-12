@@ -42,9 +42,9 @@ gradle-app.setting
 hs_err_pid*
 
 ### Vue template
-# gitignore templates for Vue.js projects
+# gitignore template for Vue.js projects
 #
-# Recommended templates: Node.gitignore
+# Recommended template: Node.gitignore
 
 # TODO: where does this rule come from?
 docs/_book
